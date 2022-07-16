@@ -3,11 +3,12 @@
 
 	<head>
 		<meta charset="utf-8"/>
-		<title> File Encryption App</title>
+		<title>JavaScript File Encryption App</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		
+		<link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
+		<link href="assets/css/style.css" rel="stylesheet" />
 
 	</head>
 
@@ -32,7 +33,33 @@
 				</div>
 			</div>
 
+			<div id="step2">
+
+				<div class="content if-encrypt">
+					<h1>Choose a file to encrypt your data</h1>
+					<h2>An encrypted copy of the file will be generated.</h2>
+					<a class="button browse blue">Browse</a>
+
+					<input type="file" id="encrypt-input" />
+				</div>
+
+				<div class="content if-decrypt">
+					<h1>Choose which file to decrypt</h1>
+					<h2>Only files encrypted by this tool are accepted.</h2>
+					<a class="button browse blue">Browse</a>
+
+					<input type="file" id="decrypt-input" />
+				</div>
+
+			</div>
+
 			
 
+			
+		</div>
+
+		
+
 	</body>
+
 </html>
